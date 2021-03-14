@@ -61,17 +61,15 @@ a:hover {
 .navBar{
   list-style-type: None;
   position: fixed;
-  top: 0.5rem;
+  /*
   left: 0.5rem;
-  right: 0.5rem;
+  */
+  top: 0.01rem;
+  right: 0.01rem;
   margin:0;
   padding:0;
   overflow:hidden;
   background-color: #dddddd;
-}
-
-li{
-  float:right;
 }
 
 li a{
@@ -138,13 +136,6 @@ li a{
 
 .bold{
   font-weight: bold;
-}
-
-/*not working*/
-.careerDates{
-  text-align: right;
-  margin-left: 10rem;
-  float:right;
 }
 
 /*-----------------------------------------*/

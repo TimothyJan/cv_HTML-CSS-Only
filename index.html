@@ -13,11 +13,11 @@
   <div class="topContainer">
 
     <ul class="navBar">
-      <li><a href=#contactMe>Contact</a></li>
-      <li><a href=#education>Education</a></li>
-      <li><a href=#career>Career</a></li>
-      <li><a href=#skills>Skills</a></li>
-      <li><a href=#profilePhoto>About</a></li>
+      <li style="float:right"><a href=#contactMe>Contact</a></li>
+      <li style="float:right"><a href=#education>Education</a></li>
+      <li style="float:right"><a href=#career>Career</a></li>
+      <li style="float:right"><a href=#skills>Skills</a></li>
+      <li style="float:right"><a href=#profilePhoto>About</a></li>
     </ul>
 
     <img class="topCloud" src="images/cloud.png" alt="cloud-img">
@@ -26,17 +26,20 @@
     <img class="bottomCloud" src="images/cloud.png" alt="cloud-img">
     <img src="images/mountain.png" alt="mountain-img">
   </div>
+
+  <hr id=profilePhoto>
   <div class="middleContainer">
     <div class="profile">
-      <img id=profilePhoto class="profilePhoto" src="images/Shibuya Crossing circle-cropped.png" alt="Tim Jan's profile photo">
+      <img class="profilePhoto" src="images/Shibuya Crossing circle-cropped.png" alt="Tim Jan's profile photo">
       <h2>Hello.</h2>
       <p class="introduction">I am an aspiring Software Engineer based in Los Angeles, California.
         Currently pursuing my <span class="underlined">M.S in Computer Science at CSU Fullerton</span> and I graduated with a <span class="underlined">B.S. in Electrical Engineering at the University of California Irvine</span>.
         I have experience in the Electrical Engineering and Project Managment environment but am seeking to switch into a more
         software focused role. 😎</p>
     </div>
-    <hr>
-    <div id=skills class="skills">
+
+    <hr id=skills>
+    <div class="skills">
       <h2>My Skills.</h2>
       <div class="skillsRow">
         <img class="oddSkillsIcon" src="https://image.flaticon.com/icons/svg/2920/2920242.svg" alt="Coding icon">
@@ -61,13 +64,13 @@
         <p>AWG, DMM, Oscilloscope, Function Generator, Current Amplifier, Power Supply, and Battery Simulator</p>
       </div>
     </div>
-    <hr>
 
-    <div id="career" class="career">
+    <hr id="career">
+    <div class="career">
       <h2>Professional Career</h2>
       <p>
         <span class="bold">Process Engineer</span>
-        <span style="careerDates">May 6, 2019 - October 27, 2020</span><br>
+        <span style="float:right">May 6, 2019 - November 20, 2020</span><br>
         <span class="bold">Applied Medical</span> - Rancho Santa Margarita, CA<br>
         Full-Time<br>
       <ul>
@@ -78,7 +81,7 @@
       </p>
       <p>
         <span class="bold">Failure Analysis Engineer</span>
-        <span style="careerDates">February 2019 – May 2, 2019</span><br>
+        <span style="float:right">February 2019 – May 2, 2019</span><br>
         <span class="bold">Abbott</span> - Sylmar, CA <br>
         Contract<br>
       <ul>
@@ -88,7 +91,7 @@
       </p>
       <p>
         <span class="bold">Electrical Engineer I</span>
-        <span style="careerDates">June 11, 2018 – Jan, 4, 2019</span><br>
+        <span style="float:right">June 11, 2018 – Jan, 4, 2019</span><br>
         <span class="bold">Abbott</span> - Sylmar, CA <br>
         Contract<br>
       <ul>
@@ -99,7 +102,7 @@
       </p>
       <p>
         <span class="bold">Software Test Engineer</span>
-        <span style="careerDates">July 20 2017 – June 1, 2018</span><br>
+        <span style="float:right">July 20 2017 – June 1, 2018</span><br>
         <span class="bold">Hycor Biomedical</span> - Garden Grove, CA <br>
         Contract<br>
       <ul>
@@ -110,7 +113,7 @@
       </p>
       <p>
         <span class="bold">Operations Building Leader</span>
-        <span style="float:right;">April 2016 – June 2017</span><br>
+        <span style="float:right">April 2016 – June 2017</span><br>
         <span class="bold">UC Irvine Student Center & Events Services</span> - Irvine, CA<br>
         Part-Time<br>
       <ul>
@@ -120,25 +123,34 @@
       </p>
     </div>
 
-    <div id="education">
-      <ul>
-        <li>
-          University of California Irvine <br>
-          September 2013 - June 2017 <br>
-          B.S. in <strong>Electrical Engineering</strong> <br>
-          Specialization in <strong>Electronic Circuit Design</strong> <br>
-        </li>
-        <li>
-          <strong>Engineer-in-Training Certification</strong><br>
-          May 2018 - Present<br>
-          Board of Professional Engineers, Land Surveyors & Geologists <br>
-          California License, EIT-164201 <br>
-        </li>
-      </ul>
-    </div>
+    <hr id="education">
+      <div class="career">
+        <h2>Education</h2>
+          <ul>
+            <li>
+              California State University Fullerton <br>
+              August 2020 - Present <br>
+              M.S. in <strong>Computer Science</strong> <br>
+            </li>
+            <br>
+            <li>
+              University of California Irvine <br>
+              September 2013 - June 2017 <br>
+              B.S. in <strong>Electrical Engineering</strong> <br>
+              Specialization in <strong>Electronic Circuit Design</strong> <br>
+            </li>
+            <br>
+            <li>
+              <strong>Engineer-in-Training Certification</strong><br>
+              May 2018 - Present<br>
+              Board of Professional Engineers, Land Surveyors & Geologists <br>
+              California License, EIT-164201 <br>
+            </li>
+          </ul>
+      </div>
 
-    <hr>
-    <div id=contactMe class="contactMe">
+    <hr id=contactMe>
+    <div class="contactMe">
       <h2>Get In Touch</h2>
       <h3>For professional inquiries please email me!</h3>
       <p>"I can't change the direction of the wind, but I can adjust my sails to always reach my destination." - Jimmy Dean</p>
