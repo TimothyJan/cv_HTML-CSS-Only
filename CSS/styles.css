@@ -42,13 +42,13 @@ p {
 
 a {
   font-family: 'Montserrat';
-  color: #EAF6F6;
+  color: black;
   margin-right: 1rem;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  color: blue;
 }
 
 li a{
@@ -146,6 +146,7 @@ li a{
   color: black;
 }
 */
+
 
 .bold{
   font-weight: bold;
